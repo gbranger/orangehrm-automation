@@ -1,0 +1,60 @@
+Login Screen:
+
+TC-001 - Login Screen acess
+Given that the user in connected to the internet
+When the user acess the OrangeHRM site
+Then the login screen is shown
+
+TC-002 - Username field Alphanumeric Characters
+Given that the user is in the OrangeHRM login screen
+When the user types alphanumeric characters in the Username field
+The Username is filled with the typed alphanumeric characters
+
+TC-003 - Password field Alphanumeric Characters
+Given that the user is in the OrangeHRM login screen
+When the user types alphanumeric characters in the Password field
+The Password is filled with the typed alphanumeric characters
+
+TC-004 - Username field Special Characters
+Given that the user is in the OrangeHRM login screen
+When the user types special characters in the Username field
+The Username is filled with the typed special characters
+
+TC-005 - Password field Special Characters
+Given that the user is in the OrangeHRM login screen
+When the user types special characters in the Password field
+Then Password is filled with the typed special characters
+
+TC006 - Login Button Behaviour without any data in Username and Password fields
+Given that the user is in the OrangeHRM login screen
+When the user clicks the Login Button
+Then the page is refreshed and the Username and Password fields are highlighted in red and "Required" is writen below it
+
+TC007 - Login Button Behaviour without any data in the Username field
+Given that the user is in the OrangeHRM login screen
+And the user types anything in the Password field
+When the user clicks the Login Button
+Then the page is refreshed and the Username field is highlighted in red and "Required" is writen below it
+
+TC008 - Login Button Behaviour without any data in the Password field
+Given that the user is in the OrangeHRM login screen
+And the user types anything in the Username field
+When the user clicks the Login Button
+Then the page is refreshed and the Password field is highlighted in red and "Required" is writen below it
+
+TC009 - Forgot Password Behaviour
+Given that the user is in the OrangeHRM login screen
+When the user clicks the Forgot Password Link
+Then the page is redirected to the Reset Password page
+
+TC010 - Unsucessful login atempt
+Given that the user is in the OrangeHRM login screen
+When the user types wrong credentials
+Then the page is refreshed and the message "Invalid Credentials" is shown in red
+
+TC011 - Sucessful login atempt
+Given that the user is in the OrangeHRM login screen
+When the user types right credentials
+Then the page is refreshed and the message "Invalid Credentials" is shown in red
+
+Coming up: Forgot Password Page, Dashboard Main Side Menu

@@ -1,0 +1,22 @@
+{
+  "name": "orangehrm-automation",
+  "version": "1.0.0",
+  "description": "OrangeHRM Automation Utilizing Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "orangehrm-automation"
+  },
+  "keywords": [
+    "cypress",
+    "test scipts",
+    "test automation",
+    "funcional testing"
+  
+  ],
+  "author": "Guilherme Branger",
+  "license": "ISC"
+}
