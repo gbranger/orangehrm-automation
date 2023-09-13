@@ -57,4 +57,158 @@ Given that the user is in the OrangeHRM login screen
 When the user types right credentials
 Then the page is refreshed and the message "Invalid Credentials" is shown in red
 
-Coming up: Forgot Password Page, Dashboard Main Side Menu
+
+Main Side Menu
+
+TC001 - Search tool testing - 1
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Admin in the Search Toll in the top left corner
+And it clicks on Admin
+Then the page is redirected to the Admin/User Management Page
+
+TC002 - Search tool testing - 2
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types PIM in the Search Toll in the top left corner
+And it clicks on PIM
+Then the page is redirected to the PIM Page
+
+TC003 - Search tool testing - 3
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Leave in the Search Toll in the top left corner
+And it clicks on Leave
+Then the page is redirected to the Leave Page
+
+TC004 - Search tool testing - 4
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Time in the Search Toll in the top left corner
+And it clicks on Time
+Then the page is redirected to the Time/Timesheets Page
+
+TC005 - Search tool testing - 5
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Recruitment in the Search Toll in the top left corner
+And it clicks on Recruitment
+Then the page is redirected to the Recruitment Page
+
+TC006 - Search tool testing - 6
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types My Info in the Search Toll in the top left corner
+And it clicks on My Info
+Then the page is redirected to the My Info Page
+
+TC007 - Search tool testing - 7
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Performance in the Search Toll in the top left corner
+And it clicks on Performance
+Then the page is redirected to the Performance/Manange Reviews Page
+
+TC008 - Search tool testing - 8
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Dashboard in the Search Toll in the top left corner
+And it clicks on Dashboard
+Then the page is redirected to the Dashboard Page
+
+TC009 - Search tool testing - 9
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Directory in the Search Toll in the top left corner
+And it clicks on Directory
+Then the page is redirected to the Directory Page
+
+TC010 - Search tool testing - 10
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Maintenance in the Search Toll in the top left corner
+And it clicks on Maintenance
+Then the page is redirected to a Administrator Access
+
+TC011 - Search tool testing - 11
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Claim in the Search Toll in the top left corner
+And it clicks on Claim
+Then the page is redirected to a Claim
+
+TC012 - Search tool testing - 12
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user types Buzz in the Search Toll in the top left corner
+And it clicks on Buzz
+Then the page is redirected to a Buzz
+
+TC013 - Side Menu Admin Button Click 
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Admin in the Side Menu
+Then the page is redirected to the Admin/User Management Page
+
+TC014 - Side Menu PIM Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on PIM in the Side Menu
+Then the page is redirected to the PIM Page
+
+TC015 - Side Menu Leave Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Leave in the Side Menu
+Then the page is redirected to the Leave Page
+
+TC016 - Side Menu Time Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Time in the Side Menu
+Then the page is redirected to the Time/Timesheets Page
+
+TC017 - Side Menu Recruitment Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Recruitment in the Side Menu
+Then the page is redirected to the Recruitment Page
+
+TC018 - Side Menu My Info Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on My Info in the Side Menu
+Then the page is redirected to the My Info Page
+
+TC019 - Side Menu Performance Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the clicks on Performance in the Side Menu
+Then the page is redirected to the Performance/Manange Reviews Page
+
+TC020 - Side Menu Dashboard Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Dashboard in the Side Menu
+Then the page is redirected to the Dashboard Page
+
+TC021 - Side Menu Directory Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Directory in the Side Menu
+Then the page is redirected to the Directory Page
+
+TC022 - Side Menu Maintenance Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Maintenance in the Side Menu
+Then the page is redirected to a Administrator Access
+
+TC023 - Side Menu Claim Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Claim in the Side Menu
+Then the page is redirected to a Claim
+
+TC024 - Side Menu Buzz Button Click
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on Buzz in the Side Menu
+Then the page is redirected to a Buzz
+
+TC025 - Side Menu Collapse
+Given that the user is loged in to the OrangeHRM Dashboard
+When the user clicks on the orange arrow to the left
+Then the Side Menu collapses
+
+TC026 - Side Menu Expansion
+Given that the user is loged in to the OrangeHRM Dashboard
+And the Side Menu collapsed
+When the user clicks on the orange arrow to the right
+Then the Side Menu expands
+
+
+
+
+
+
+
+
+
+Coming up: Admin/User Management Page; PIM Page
